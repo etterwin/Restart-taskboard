@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/pictures/img/title.png" type="image/png" />
+    <title>DiaVita Club presentation</title>
+
+    <!-- CSS -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="container">
+
+    <img src="assets/pictures/svg/pm-logo.svg" class="logotype" alt="Panda Media logotype" />
+
+    <nav class="navigation">
+
+        <span class="navigation-move"></span>
+
+        <ul class="nav-list">
+            <li class="nav-item" id="item_1">
+                <a href="#" class="nav-item-link">Профиль</a>
+            </li>
+            <li class="nav-item" id="item_2">
+                <a href="#tasks" class="nav-item-link">Задачи</a>
+            </li>
+            <li class="nav-item" id="item_3">
+                <a href="#" class="nav-item-link">Архив заданий</a>
+            </li>
+            <li class="nav-item" id="item_4">
+                <a href="#" class="nav-item-link">Настройки</a>
+            </li>
+            <li class="nav-item" id="item_5">
+                <a href="#" class="nav-item-link">Выйти</a>
+            </li>
+        </ul>
+
+    </nav>
+
+    <span class="pm-text">Panda Media NN | 2017</span>
+
+</div>
+
+<div class="container">
+
+    <header class="header">
+
+        <form class="search-container" id="search" method="get" action="#">
+
+            <label class="search-img">
+                <img src="assets/pictures/svg/search.svg" class="header-icon" alt="Search" />
+            </label>
+            <input type="search" name="search-field" id="search_field" class="search-field" placeholder="Поиск заданий..." />
+
+        </form>
+
+        <div class="create__container">
+
+            <p class="create-task">Создать задачу</p>
+
+        </div>
+
+    </header>
+
+    <div class="content">
+
+        <form class="task__search">
+
+            <label class="task-text">Сортировать по:</label>
+            <select name="task-sorting" class="sorting-list">
+                <option class="sorting-item">ID</option>
+                <option class="sorting-item">названию</option>
+                <option class="sorting-item">тематике</option>
+                <option class="sorting-item">создателю</option>
+                <option class="sorting-item">дате создания</option>
+                <option class="sorting-item">дедлайну</option>
+                <option class="sorting-item">языку</option>
+                <option class="sorting-item">типу</option>
+            </select>
+
+        </form>
+
+        <div class="tasks__container" id="tasks">
+
+            <div class="task">
+
+                <img src="assets/pictures/img" class="task-avatar" />
+
+                <div class="task__description">
+
+                    <h2 class="task-username">Иван Иванов</h2>
+                    <p class="task-user-status">Переводчик</p>
+
+                    <h2 class="task-taskname">Перевод статьи</h2>
+                    <p class="task-info">Приоритет: <span class="task-select">Средний</span></p>
+                    <p class="task-info">Deadline: <span class="task-select">10/10/2017</span></p>
+
+                    <p class="task-user-info">Skype: <span class="task-user-contact">skype@example</span></p>
+                    <p class="task-user-info">Telegram: <span class="task-user-contact">@exapmle</span></p>
+                    <p class="task-user-info">Телефон: <span class="task-user-contact">+79999999999</span></p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<aside class="container">
+
+    <div class="user__container">
+
+        <p class="user-greeting">Привет, <span class="user-name"></span></p>
+
+        <img src="" class="user-avatar" alt="User avatar" />
+
+    </div>
+
+    <div class="history__container">
+
+        <div class="action__container">
+
+            <img src="" class="action-user-avatar" />
+
+            <div class="action__content">
+
+                <p class="action-text"></p>
+                <p class="action-text"></p>
+                <p class="action-text"></p>
+
+                <span class="action-data">10/10/2017</span>
+                <span class="action-data">10:10</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</aside>
+
+</body>
+</html>
