@@ -12,6 +12,9 @@
     <!-- FONT -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
 
+    <!-- Scripts -->
+    <script src="js/navAction.js"></script>
+
 </head>
 <body>
 
@@ -24,8 +27,18 @@
         <span class="navigation-move"></span>
 
         <ul class="nav-list">
-            <li class="nav-item" id="item_1">
+            <li class="nav-item" id="item_1"
+                onclick="newColor(this)">
+
+                <svg class="nav-icon" viewBox="0 0 15.07 15" id="nav_icon_1">
+                    <path d="M7.51,8.06a4,4,0,1,0-4-4A4,4,0,0,0,7.51,8.06Zm0-7a3,3,0,1,1-3,3A3,3,0,0,
+                    1,7.51,1.05Z" />
+                    <path d="M.53,15h14a.53.53,0,0,0,.53-.53A5.07,5.07,0,0,0,10,9.41h-5A5.07,5.07,0,
+                    0,0,0,14.47.53.53,0,0,0,.53,15Zm4.53-4.53h5a4,4,0,0,1,4,3.47H1.1A4,4,0,0,1,5.06,10.47Z"/>
+                </svg>
+
                 <a href="#" class="nav-item-link">Профиль</a>
+
             </li>
             <li class="nav-item" id="item_2">
                 <a href="#tasks" class="nav-item-link">Задачи</a>
@@ -72,8 +85,8 @@
 
         <form class="task__search">
 
-            <label class="task-text">Сортировать по:</label>
-            <select name="task-sorting" class="sorting-list">
+            <label class="task-text" for="sorting">Сортировать по:</label>
+            <select name="task-sorting" class="sorting-list" id="sorting">
                 <option class="sorting-item">ID</option>
                 <option class="sorting-item">названию</option>
                 <option class="sorting-item">тематике</option>

@@ -8,4 +8,96 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   color: #435289;
+  height: 100vh;
+}
+
+body {
+  background: url("../assets/pictures/svg/bg.svg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: inline-block;
+}
+
+div.container:first-child {
+  position: relative;
+  height: 100vh;
+  border-right: 1px solid rgba(67, 82, 137, 0.3);
+}
+
+div.container:first-child,
+div.container:last-child {
+  min-width: 200px;
+  width: 20%;
+}
+
+.container:nth-child(2) {
+  min-width: 800px;
+  width: 60%;
+}
+
+.logotype {
+  width: 250px;
+  display: block;
+  margin: 25px auto 0;
+}
+
+.navigation {
+  position: relative;
+  margin: 50px 0 0;
+}
+
+.navigation-move {
+  display: block;
+  position: absolute;
+  content: " ";
+  background: #7b5eee;
+  height: 20px;
+  width: 5px;
+}
+
+.nav-icon {
+  height: 20px;
+  display: inline-block;
+  cursor: pointer;
+  fill: #435289;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-icon--active {
+  fill: #7b5eee;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-item {
+  display: inline-block;
+  padding-left: 20%;
+  margin-bottom: 15px;
+  width: 80%;
+  cursor: pointer;
+}
+
+.nav-item-link {
+  color: #435289;
+  font-size: 18px;
+}
+
+.nav-item-link--active {
+  color: #7b5eee;
+}
+
+.pm-text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+
+.header-icon {
+  height: 20px;
 }
