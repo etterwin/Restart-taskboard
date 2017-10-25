@@ -57,21 +57,7 @@ div.container:last-child {
   box-sizing: border-box;
   margin-bottom: 15px;
   width: 100%;
-  cursor: pointer;
-  color: #435289;
-  fill: #435289;
-  transition: all 0.2s ease-in-out; }
-
-.nav-item--active {
-  display: block;
-  padding-left: 10%;
-  box-sizing: border-box;
-  margin-bottom: 15px;
-  width: 100%;
-  cursor: pointer;
-  color: #7b5eee;
-  fill: #7b5eee;
-  transition: all 0.2s ease-in-out; }
+  cursor: pointer; }
 
 .nav-icon {
   height: 20px;
@@ -79,7 +65,7 @@ div.container:last-child {
   cursor: pointer;
   width: 10%;
   margin-right: 10%;
-  fill: inherit;
+  fill: #435289;
   transition: all 0.2s ease-in-out; }
 
 .nav-icon--empty {
@@ -89,7 +75,7 @@ div.container:last-child {
 
 .nav-icon--active {
   transition: all 0.2s ease-in-out;
-  fill: inherit;
+  fill: #7b5eee;
   height: 20px;
   display: inline-block;
   cursor: pointer;
@@ -97,7 +83,7 @@ div.container:last-child {
   margin-right: 10%; }
 
 .nav-item-link {
-  color: inherit;
+  color: #435289;
   font-size: 18px;
   transition: all 0.2s ease-in-out; }
 
