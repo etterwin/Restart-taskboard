@@ -59,26 +59,51 @@ div.container:last-child {
   background: #7b5eee;
   height: 25px;
   width: 5px;
+  top: 0;
   transition: all 0.2s ease-in-out;
 }
 
 .navigation-move--second {
-  top: calc(20% + 15px);
+  display: block;
+  position: absolute;
+  content: " ";
+  background: #7b5eee;
+  height: 25px;
+  width: 5px;
+  top: 20%;
   transition: all 0.2s ease-in-out;
 }
 
 .navigation-move--third {
-  top: calc(40% + 15px);
+  display: block;
+  position: absolute;
+  content: " ";
+  background: #7b5eee;
+  height: 25px;
+  width: 5px;
+  top: 40%;
   transition: all 0.2s ease-in-out;
 }
 
 .navigation-move--fourth {
-  top: calc(60% + 15px);
+  display: block;
+  position: absolute;
+  content: " ";
+  background: #7b5eee;
+  height: 25px;
+  width: 5px;
+  top: 60%;
   transition: all 0.2s ease-in-out;
 }
 
 .navigation-move--fifth {
-  top: calc(80% + 15px);
+  display: block;
+  position: absolute;
+  content: " ";
+  background: #7b5eee;
+  height: 25px;
+  width: 5px;
+  top: 80%;
   transition: all 0.2s ease-in-out;
 }
 
