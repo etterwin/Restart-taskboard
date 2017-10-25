@@ -1,6 +1,6 @@
-function click() {
+function navAction() {
 
-    document.getElementById("svg_1").classList.add("nav-icon--active");
-    document.getElementById("nav_link_1").classList.add("nav-item-link--active");
+    document.getElementById("11_i").classList.toggle("nav-item--active");
+    document.getElementById("nav_move").style.top = "20%";
 
 }
