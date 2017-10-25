@@ -51,6 +51,22 @@ div.container:last-child {
   width: 5px;
   transition: all 0.2s ease-in-out; }
 
+.navigation-move--second {
+  top: calc(20% + 15px);
+  transition: all 0.2s ease-in-out; }
+
+.navigation-move--third {
+  top: calc(40% + 15px);
+  transition: all 0.2s ease-in-out; }
+
+.navigation-move--fourth {
+  top: calc(60% + 15px);
+  transition: all 0.2s ease-in-out; }
+
+.navigation-move--fifth {
+  top: calc(80% + 15px);
+  transition: all 0.2s ease-in-out; }
+
 .nav-item {
   display: block;
   padding-left: 10%;
